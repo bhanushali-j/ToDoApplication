@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Demo App</span>
+    <span class="c-spacer"></span>
+
+    <div *ngIf="userExists$ | async;else register">
+      <span class="c-padding-50">{{userEmail}}</span>
+      <a mat-raised-button color="warn" (click)="logout()">Logout</a>
+    </div>
+    <ng-template #register>
+      <div>
+        <a mat-button routerLink="/register">Register</a>
+      </div>
+    </ng-template>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>

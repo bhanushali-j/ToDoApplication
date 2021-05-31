@@ -1,0 +1,55 @@
+/* Structure */
+.c-main-container {
+  position: relative;
+  min-height: 200px;
+  width: 50%;
+  margin: 1em auto;
+}
+
+.c-table-container {
+  position: relative;
+  max-height: 525px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.c-loading-shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 56px;
+  right: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Column Widths */
+.mat-column-number,
+.mat-column-state {
+  max-width: 64px;
+}
+
+.mat-column-created {
+  max-width: 124px;
+}
+
+.c-search-bar {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.full-width {
+  width: 100%;
+  margin-right: 1em;
+}

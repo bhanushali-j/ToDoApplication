@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>{{action}} Employee</h2>
+<mat-dialog-content>
+  <form class="flex flex-col">
+    <mat-form-field appearance="standard">
+      <mat-label>Description</mat-label>
+      <input matInput [(ngModel)]="description" type="text" style="width: 100%" placeholder="Learn Angular"
+        [ngModelOptions]="{standalone: true}">
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-raised-button color="primary" (click)="onUpdate()">{{action}}</button>
+  <button mat-flat-button mat-dialog-close>Cancel</button>
+</mat-dialog-actions>
