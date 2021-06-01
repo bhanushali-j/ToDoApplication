@@ -1,0 +1,5 @@
+INSERT INTO USER (firstname,lastname,username,password,email) VALUES ('john','carter','cjohn','abc','jc@gmail.com')
+INSERT INTO USER (firstname,lastname,username,password,email) VALUES ('Westley','Schowalter','swestley','xyz','ws@gmail.com')
+INSERT INTO USER (firstname,lastname,username,password,email) VALUES ('Cary','Williamson','wcary','prq','cw@gmail.com')
+INSERT INTO USER (firstname,lastname,username,password,email) VALUES('Goku','sayan','sgoku','ultrainsticnt','gs@gmail.com')
+INSERT INTO USER (firstname,lastname,username,password,email) VALUES('naruto','uzumaki','unaruto','kurama','nu@gmail.com')
